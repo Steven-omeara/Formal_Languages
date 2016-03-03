@@ -1,0 +1,59 @@
+9 pts
+
+Correctness:
+
+- The program produces correct output.
+
+- The program produces output in the incorrect format. When I run the program
+  it gives the output in the incorrect format. I think you misunderstood the
+  handout. If I do this:
+--
+$ java driverDFA gncgwng
+Congrats, thats corrrect
+--
+it tells me that it is the correct answer; however, it is not in the correct
+format. Your program should work as follows:
+--
+$ java driverDFA gncgwng
+That is a solution.
+--
+See the difference?
+
+
+Style:
+
+- Correct indentation
+
+- Opening braces are misplaced. Opening braces must appear on the same line as
+  the preceding statement (i.e. function opening, if, for, while, case, etc.).
+
+- Good block comments
+
+- Classes do not have a description. Each class declaration must have a comment
+  block before it, which gives the class name and describes the purpose of the
+  class. Here is an example:
+/**
+ * SinglyLinkedList
+ * 
+ * This class implements a linked list with single forward links, and supports
+ * dynamic addition and deletion of nodes. 
+ */
+public class SinglyLinkedList {
+  // ...
+}
+
+- Code (or comments) go beyond 100 characters. Keep lines of code short.
+  Optimally 80 characters, but no more than 100.
+
+
+Efficiency and Other Comments:
+
+- Program is efficient as implemented.
+
+
+CSV files:
+
+- CSV files contain State-transition table and description of states.
+
+
+- Dr. Rivas
