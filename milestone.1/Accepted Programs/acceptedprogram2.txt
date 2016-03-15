@@ -1,0 +1,3 @@
+var z
+var a
+a = 9 + z
