@@ -14,7 +14,7 @@ varx
 
 *- correct comment -*
 
-*- 1ncorrent comment -*
+*- Incorrect comment -*
 
 print ( s )
 

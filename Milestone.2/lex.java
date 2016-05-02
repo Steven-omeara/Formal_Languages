@@ -226,7 +226,9 @@ public class lex
               buildNext = buildNext + ' ';
               break;
           default:
-              //System.out.print("Invalid character: " + currChar);           
+              //System.out.print("Invalid character: " + currChar);
+        	  buildNext = buildNext + currChar;
+        	  currState = 41;
               break;
         }
         //System.out.println(currChar + " " + currState);
