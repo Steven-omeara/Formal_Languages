@@ -1,0 +1,12 @@
+*- this is a comment these are correct statements -*
+print ( 1 + a )
+print ( " hello " )
+print ( a )
+var a
+a = 1 + a
+a = " hello "
+a = a
+
+*- these are incorrect statements -*
+aprint ( a )
+*- 54nope -*

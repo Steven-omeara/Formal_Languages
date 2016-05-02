@@ -1,0 +1,30 @@
+*- this will test all of the proper grammar -*
+var s
+
+var t
+
+t = 2
+
+s = 2 + 2
+
+s = " stringtest "
+
+print ( s )
+
+print ( " stringtest " )
+
+print ( t )
+
+print ( 4 + t )
+
+print ( 2 + 6 )
+
+*- broken2 cases -*
+
+yvar
+
+xprint ( s )
+
+*- we allow string plus digit in our language -*
+
+print ( 4 + " string " )

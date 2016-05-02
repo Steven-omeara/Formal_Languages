@@ -1,0 +1,14 @@
+*- testing having statements on the same line -*
+
+var z z = 9 print ( z ) print ( 1 + 1 + z ) print ( " string " ) 
+
+var g g = " fun " *- testcomment -*
+
+*- testing variables for v and p that may confict with the dfa -*
+
+var p var v p = " print " v = 5 print ( p ) print ( v )
+
+*- broken and good -*
+
+varz var z print( z ) print ( z )
+
